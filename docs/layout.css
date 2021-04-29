@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/*
+      Final Exam IS 218
+      Author: Megan Buttry
+      Date:   04/24/2021
+
+      Filename:   layout.css
+
+*/
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    
+}
+nav ul{
+    display: flex;
+    flex-flow: row wrap;
+ }
+ 
+nav ul li a{
+    flex: 1 1 auto;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+ }
+
+a>img{
+    width: 100%;
+}
+
+body>h1{
+    display: block;
+}
+
+ article>h1 {
+    column-span: all;
+    text-align: center;
+    font-size: 3.5em;
+    letter-spacing: 0.15em;
+ }
+ 
+article>div{
+    padding: 50px;
+ }
+
+article.resume {
+    column-count:2;
+    column-gap: 20px;
+    column-width: 350px;
+
+    display: block;
+    padding: 20px;
+}
+
+p{
+    padding: 7px;
+}
+
+h3{
+    display: block;
+}
+table{
+    margin: 10px;
+    
+}
+
+th{
+    padding: 10px;
+}
+
+td{
+    text-align: center;
+    padding: 15px;
+}
+
+caption{
+    padding:20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+@media only screen and (max-width: 480px){
+
+    h1.mainHead{
+        font-size: 1em;
+        display: none;
+    }
+
+    
+    nav ul li a{
+        display: flex;
+        font-size: 0.5em;
+        letter-spacing: -5em;
+        float: left;
+    }
+
+    body>div{
+        display: none;
+        
+    }
+    body{
+        margin: 0px;
+    }
+
+    table.transcript{
+        position: center;
+        display: block;
+        width: 100%;
+        padding: 0px;
+        font-size: 0.5em;
+        margin: 0px;
+    }
+    tr>th{
+        padding: 0px;
+        font-size: 0.5em;
+    }
+    tr>td{
+        padding: 0px;
+        font-size: 0.5em;
+    }
+    caption{
+        padding: 0px;
+    }
+
+    footer{
+        font-size: 0.5em;
+    }
+}

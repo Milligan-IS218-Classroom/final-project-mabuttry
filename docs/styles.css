@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/*
+      Final Exam IS 218
+      Author: Megan Buttry
+      Date:   04/24/2021
+
+      Filename:   styles.css
+
+*/
+
+body{
+    background: linear-gradient(to top, white, rgb(255, 162, 162), white);
+}
+
+a>img{
+    transition: ease-in-out 3s;
+}
+
+tr.summer2014, tr.fall2017, tr.fall2018, tr.fall2019, tr.fall2020{
+    background-color: rgb(255, 234, 237);
+}
+
+tr.fall2015, tr.spring2018, tr.spring2019, tr.spring2020, tr.spring2021{
+    background-color: rgb(224, 174, 202);
+}
+
+table{
+    font-family: 'Courier New', Courier, monospace;;
+    font-size: 1.5em;
+    border-spacing: 0em;
+    box-shadow: 10px 0 35px rgb(46, 0, 0), -10px 0 35px rgb(46, 0, 0);
+}
+
+td{
+    border: 1px solid darkred;
+}
+
+th{
+    border: 1px solid darkred;
+    border-bottom: 3px solid darkred;
+    background-color:rgb(155, 117, 139);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+caption{
+    font-family: 'Courier New', Courier, monospace;
+    size:1.5em;
+    background-color:rgb(61, 0, 0);
+    color: white;
+    text-shadow: 5px 5px 20px rgba(41, 0, 0, 0.9);
+    font-weight: bold;
+    box-shadow: 10px 0 35px rgb(53, 0, 0), -10px 0 35px rgb(53, 0, 0);
+}
+
+
+nav{
+    background-color: #7e2e2d;
+}
+nav ul{
+    list-style: none;    
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+
+nav ul li a{
+    text-decoration: none !important;
+    text-shadow: 2px 5px 20px rgba(41, 41, 41, 0.9); 
+    font-weight: 5em;
+    border: black;
+    background-color: #b34a48;
+	color: white;
+    letter-spacing: 1.3em;
+    transition: background-color 1s;
+}
+
+
+nav ul li a:hover {
+	background-color: #e7c6c6;
+	color: rgb(22, 1, 1);
+}
+
+h1.mainHead{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+   color: white;
+   text-shadow: 0px 0px 2px rgb(49, 0, 0), 0px 0px 20px rgb(59, 0, 0);
+   font-size: 4em;
+}
+
+a>img{
+    width: 330px;
+   height: 420px;
+   display: inline;
+   float: left;
+   padding: 30px;
+}
+
+body>h1{
+    color:rgb(43, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 2px 2px white;
+}
+
+article{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+article.about{
+    padding: 50px;
+    display: inline;
+    font-weight: bold;
+    font-size: 1.05em;
+
+}
+
+article>div{
+    background-color: #ffe9e9;
+    
+}
+
+h2{
+    border-bottom: 2px solid red;
+    font-size: 1.5em;
+
+}
+
+h3{
+    border-bottom: 2px solid red;
+    font-size: 1.5em;
+}
+
+footer{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 2em;
+    font-size: 2em;
+}
