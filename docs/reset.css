@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/*
+      Final Exam IS 218
+      Author: Megan Buttry
+      Date:   04/24/2021
+
+      Filename:   reset.css
+
+*/
+
+nav, a, body, article, p, table, footer, header{
+      display: block;
+}
+
+nav, a, body, article, p, table, footer, h1, h2, h3, h4{
+      background: transparent;
+      font-size: 100%;
+      margin: 0;
+      padding: 0;
+      vertical-align: baseline;
+}
+ul{
+      list-style: none;
+}
+
+body{
+      line-height: 1
+}
